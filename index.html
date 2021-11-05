@@ -19,9 +19,9 @@
     />
 
     <!-- Custom Style CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-
-    <link rel="shortcut icon" href="/assets/img/brand/Tempt.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    
+    <link href="<?php echo base_url('assets/img/brand/Tempt.png') ?>" rel="shortcut icon">
     <title>Temperature Coffee</title>
   </head>
   <body>
@@ -38,7 +38,7 @@
           "
         >
           <div class="heading d-flex align-items-center justify-content-center">
-            <img src="/assets/img/ornament/surprise.svg" alt="" />
+            <img src="./assets/img/ornament/surprise.svg" alt="" />
             <h3 class="caption">We've 75% discount for all product</h3>
           </div>
         </div>
@@ -64,7 +64,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="/assets/img/brand/Tempt.png" alt="" />
+            <img src="./assets/img/brand/Tempt.png" alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -80,15 +80,15 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+              <a href="<?= site_url('/') ?>" class="nav-link active">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Daftar Menu</a>
+                <a href =" <?= site_url('Menucontroller') ?>"class="nav-link">Daftar Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Tentang</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#"
                   >Contact Us
                   <svg
@@ -118,7 +118,7 @@
                     </defs>
                   </svg>
                 </a>
-              </li>
+              </li> -->
             </ul>
             <button class="btn btn-fzn btn-fzn-filled">Login</button>
             <!-- <div class="search-cart d-flex justify-content-between">
@@ -145,9 +145,8 @@
       </nav>
     </div>
     <!-- Header End -->
-
-    <!-- Hero Start -->
-    <div class="container hero">
+ <!-- Hero Start -->
+ <div class="container hero">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6">
           <!-- <h3 class="subtitle">
@@ -193,21 +192,21 @@
           <div class="row counter">
             <div class="col-3">
               <h5 data-target="4012" class="count">0</h5>
-              <h6 class="label">Costumers</h6>
+              <h6 class="label">Pelanggan</h6>
             </div>
             <div class="col-3">
               <h5 data-target="4002" class="count">0</h5>
-              <h6 class="label">Ratings</h6>
+              <h6 class="label">Rating</h6>
             </div>
             <div class="col-3">
               <h5 data-target="300" class="count">0</h5>
-              <h6 class="label">Users</h6>
+              <h6 class="label">Pengguna</h6>
             </div>
           </div>
         </div>
         <div class="col-md-6 image">
-<!--           <img src="/assets/img/ornament/ornament-hero.png" /> -->
-          <img src="/assets/img/brand/barista.png" alt="barista" />
+          <!-- <img src="./assets/img/ornament/ornament-hero.png" /> -->
+          <img src="./assets/img/brand/barista.png" alt="barista" />
         </div>
       </div>
     </div>
@@ -221,15 +220,15 @@
       </div>
       <div class="row text-center justify-content-center">
         <div class="col-md-3 col-xl-2 icon-box">
-          <img src="/assets/img/icon/quality.svg" alt="" />
+          <img src="./assets/img/icon/quality.svg" alt="" />
           <h5 class="mt-4">High Quality</h5>
         </div>
         <div class="col-md-3 col-xl-2 icon-box">
-          <img src="/assets/img/icon/no-preservative.svg" alt="" />
+          <img src="./assets/img/icon/no-preservative.svg" alt="" />
           <h5 class="mt-4">Fresh</h5>
         </div>
         <div class="col-md-3 col-xl-2 icon-box">
-          <img src="/assets/img/icon/professional.svg" alt="" />
+          <img src="./assets/img/icon/professional.svg" alt="" />
           <h5 class="mt-4">Professional</h5>
         </div>
       </div>
@@ -237,7 +236,7 @@
     <!-- Services End -->
 
     <!-- Feature Start -->
-    <div class="container not-hero not-header feature">
+    <!-- <div class="container not-hero not-header feature">
       <div class="row text-center mb-3">
         <h3 class="subtitle">Our Features</h3>
         <h2><span class="lineword">New</span> Feature Released</h2>
@@ -276,7 +275,7 @@
             justify-content-center
           "
         >
-          <img src="/assets/img/app/app-chat.png" alt="" />
+          <img src="./assets/img/app/app-chat.png" alt="" />
         </div>
         <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3 text right mx-3">
           <div class="row detail">
@@ -300,11 +299,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Feature End -->
 
     <!-- Product Start -->
-    <div class="container not-hero not-header product">
+    <div class="container not-hero not-header feature product">
       <div class="row mb-4">
         <div class="col heading d-flex">
           <h2>Reko<span class="lineword">mendasi</span></h2>
@@ -318,7 +317,7 @@
           <div class="card">
             <div class="product-img">
               <img
-                src="/assets/img/product/kopisusupandan.png"
+                src="./assets/img/product/kopisusupandan.png"
                 class="card-img-top"
               />
             </div>
@@ -352,7 +351,7 @@
           <div class="card">
             <div class="product-img">
               <img
-                src="/assets/img/product/icedcaramel2.jpg"
+                src="./assets/img/product/icedcaramel2.jpg"
                 class="card-img-top"
               />
             </div>
@@ -386,7 +385,7 @@
           <div class="card">
             <div class="product-img">
               <img
-                src="/assets/img/product/kopisusu.jpg"
+                src="./assets/img/product/kopisusu.jpg"
                 class="card-img-top"
               />
             </div>
@@ -423,7 +422,7 @@
     <!-- Product End -->
 
     <!-- Discount Start -->
-    <div
+    <!-- <div
       class="
         container-fluid
         not-hero not-header
@@ -443,80 +442,80 @@
             </button>
           </div>
           <div class="col-md-7 image">
-            <img src="/assets/img/chef/chef-greting.png" alt="" />
-            <img src="/assets/img/chef/chef-lookup.png" alt="" />
+            <img src="./assets/img/chef/chef-greting.png" alt="" />
+            <img src="./assets/img/chef/chef-lookup.png" alt="" />
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Discount End -->
 
     <!-- Team Start -->
-    <div class="container not-hero not-header team">
+    <!-- <div class="container not-hero not-header team">
       <div class="row mb-4 text-center">
         <h3 class="subtitle">A Solid Team</h3>
-        <h2><span class="lineword">Professional</span> Chef In Our Team</h2>
+        <h2><span class="lineword">Professional</span> Barista Our Team</h2>
       </div>
       <div class="row">
         <div class="col-6 col-xl-3 team-box">
-          <img src="/assets/img/chef/team1.jpg" alt="" class="pict-team" />
+          <img src="./assets/img/chef/team1.jpg" alt="" class="pict-team" />
           <div class="team-info">
             <h5 class="team-name">Fernando Abra</h5>
-            <p class="team-job">Head of Chef</p>
+            <p class="team-job">CEO</p>
           </div>
         </div>
         <div class="col-6 col-xl-3 team-box">
-          <img src="/assets/img/chef/team2.jpg" alt="" class="pict-team" />
+          <img src="./assets/img/chef/team2.jpg" alt="" class="pict-team" />
           <div class="team-info">
             <h5 class="team-name">Cecep Sumacep</h5>
-            <p class="team-job">Chef</p>
+            <p class="team-job">Barista</p>
           </div>
         </div>
         <div class="col-6 col-xl-3 team-box">
-          <img src="/assets/img/chef/team3.jpg" alt="" class="pict-team" />
+          <img src="./assets/img/chef/team3.jpg" alt="" class="pict-team" />
           <div class="team-info">
             <h5 class="team-name">Redona Leslie</h5>
-            <p class="team-job">Chef</p>
+            <p class="team-job">Barista</p>
           </div>
         </div>
         <div class="col-6 col-xl-3 team-box">
-          <img src="/assets/img/chef/team4.jpg" alt="" class="pict-team" />
+          <img src="./assets/img/chef/team4.jpg" alt="" class="pict-team" />
           <div class="team-info">
             <h5 class="team-name">David Cooper</h5>
-            <p class="team-job">Chef</p>
+            <p class="team-job">Barista</p>
           </div>
         </div>
-      </div>
-      <div class="row">
+      </div> -->
+     <!--  <div class="row">
         <div class="col-6 col-xl-3 team-box">
-          <img src="/assets/img/chef/team5.jpg" alt="" class="pict-team" />
+          <img src="./assets/img/chef/team5.jpg" alt="" class="pict-team" />
           <div class="team-info">
             <h5 class="team-name">Ferdinan Maarola</h5>
-            <p class="team-job">Chef</p>
+            <p class="team-job">Barista</p>
           </div>
         </div>
         <div class="col-6 col-xl-3 team-box">
-          <img src="/assets/img/chef/team6.jpg" alt="" class="pict-team" />
+          <img src="./assets/img/chef/team6.jpg" alt="" class="pict-team" />
           <div class="team-info">
             <h5 class="team-name">Titi Maryati</h5>
-            <p class="team-job">Chef</p>
+            <p class="team-job">Barista</p>
           </div>
         </div>
         <div class="col-6 col-xl-3 team-box">
-          <img src="/assets/img/chef/team7.jpg" alt="" class="pict-team" />
+          <img src="./assets/img/chef/team7.jpg" alt="" class="pict-team" />
           <div class="team-info">
             <h5 class="team-name">Brandon Ant</h5>
-            <p class="team-job">Chef</p>
+            <p class="team-job">Barista</p>
           </div>
-        </div>
-        <div class="col-6 col-xl-3 team-box">
+        </div> -->
+        <!-- <div class="col-6 col-xl-3 team-box">
           <div class="team-join">
             <h5>Do you have cooking skill?</h5>
             <a> Join Us Now <i class="bi bi-arrow-right"></i> </a>
           </div>
         </div>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
     <!-- Team End -->
 
     <!-- App Start -->
@@ -537,7 +536,7 @@
                   justify-content-around
                 "
               >
-                <img src="/assets/img/brand/appstore.png" alt="" />
+                <img src="./assets/img/brand/appstore.png" alt="" />
                 <h5>App Store</h5>
               </a>
               <a
@@ -551,13 +550,13 @@
                   justify-content-around
                 "
               >
-                <img src="/assets/img/brand/playstore.png" alt="" />
+                <img src="./assets/img/brand/playstore.png" alt="" />
                 <h5>Play Store</h5>
               </a>
             </div>
           </div>
           <div class="col-12 col-lg-5 appmockup">
-            <img src="/assets/img/app/app-home.png" alt="" />
+            <img src="./assets/img/app/app-home.png" alt="" />
           </div>
         </div>
       </div>
@@ -569,7 +568,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-4 brand">
-            <img src="/assets/img/brand/Tempt.png" alt="" />
+            <img src="./assets/img/brand/Tempt.png" alt="" />
             <!-- <h3 class="slogan">“a delicious plate”</h3> -->
             <div class="contact">
               <p class="address">
@@ -580,35 +579,33 @@
                 <i class="bi bi-telephone"></i> +62 819-3127-4079
               </p>
               <p class="email">
-                <i class="bi bi-envelope"></i> hello@sepiring.fz
+                <i class="bi bi-envelope"></i> ctemperature@gmail.com
               </p>
             </div>
           </div>
           <div class="col-xl-6 links">
             <div class="row">
               <div class="col-md-3 menu-footer">
-                <h6 class="title">Company</h6>
+                <h6 class="title">Kedai Coffe</h6>
                 <ul class="footer-nav">
-                  <li class="link-item"><a href="#">About</a></li>
-                  <li class="link-item"><a href="#">Our Barista</a></li>
+                  <li class="link-item"><a href="#">Tentang</a></li>
+                  <!-- <li class="link-item"><a href="#">Our Barista</a></li> -->
                 </ul>
               </div>
               <div class="col-md-3 menu-footer">
-                <h6 class="title">Category</h6>
+                <h6 class="title">Kategori</h6>
                 <ul class="footer-nav">
-                  <li class="link-item"><a href="#">Drinks</a></li>
-                  <li class="link-item"><a href="#">Dessert</a></li>
+                  <li class="link-item"><a href="#">Minuman</a></li>
                 </ul>
               </div>
               <div class="col-md-3 menu-footer">
-                <h6 class="title">Barista</h6>
+                <h6 class="title">Ulasan</h6>
                 <ul class="footer-nav">
-                  <li class="link-item"><a href="#">Tips</a></li>
-                  <li class="link-item"><a href="#">Healthy Care</a></li>
+                  <li class="link-item"><a href="#">Ulasan & Rating</a></li>
                 </ul>
               </div>
               <div class="col-md-3 menu-footer">
-                <h6 class="title">Follow Us</h6>
+                <h6 class="title">Ikuti Kami</h6>
                 <ul class="footer-nav">
                   <li class="link-item">
                     <a href="https://www.instagram.com/temperature.coffee/">Instagram</a>
@@ -629,7 +626,7 @@
         <div class="row">
           <div class="col">
             <div class="meta copyright">
-              <p>Copyright &copy; 2021 Sepiring</p>
+              <p>Copyright &copy; 2021 CTemperature</p>
             </div>
             <div class="meta menu-footer-bottom">
               <ul class="legal-menu">
@@ -659,8 +656,8 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
-    <script src="/assets/js/countdown.js"></script>
-    <script src="/assets/js/campaign.js"></script>
-    <script src="/assets/js/counter.js"></script>
+    <script src="./assets/js/countdown.js"></script>
+    <script src="./assets/js/campaign.js"></script>
+    <script src="./assets/js/counter.js"></script>
   </body>
 </html>
