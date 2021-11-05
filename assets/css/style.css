@@ -853,7 +853,7 @@ button, button:hover, button:focus {
     .container.feature {
         background-color: rgba(243, 243, 243, 0.575);
         box-shadow: 0 60px 80px -40px rgba(32, 31, 31, 0.295);
-        padding: 48px 48px 0;
+        padding: 48px 48px 48px;
         border-radius: 16px;
     }
     .product .heading  {
