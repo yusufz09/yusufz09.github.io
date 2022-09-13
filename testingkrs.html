@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kartu Rencana Studi</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.3.1
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/UNLA.png" alt="">
+        <span class="d-none d-lg-block">SIAK UNLA</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/tesdp.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Ilham Maulana Yusuf</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Ilham Maulana Yusuf</h6>
+              <span>Teknik Informatika</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+   <!-- ======= Sidebar ======= -->
+   <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Halaman Utama</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#perwalian-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Rencana Studi</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="perwalian-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="rencana-studi.html" class="active">
+              <i class="bi bi-circle"></i><span>Kartu Rencana Studi</span>
+            </a>
+          </li>
+          <li>
+            <a href="rencana-studi.html">
+              <i class="bi bi-circle"></i><span>Cetak Kartu Ujian</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Rencana Studi Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#hasilstudi-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Hasil Studi</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="hasilstudi-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="hasil-studi.html">
+              <i class="bi bi-circle"></i><span>Kartu Hasil Studi</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Transkip Akademik</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Hasil Studi Nav -->
+<!-- 
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="charts-chartjs.html">
+              <i class="bi bi-circle"></i><span>Chart.js</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-apexcharts.html">
+              <i class="bi bi-circle"></i><span>ApexCharts</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>ECharts</span>
+            </a>
+          </li>
+        </ul>
+      </li>End Chart Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#pembayaran-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Pembayaran</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="pembayaran-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>DPP</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>DPK</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>Praktikum</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>KKNM</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Wisuda</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Pembayaran Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#perkuliahan-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Perkuliahan</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="perkuliahan-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>Jadwal Perkuliahan Prodi</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Jadwal Perkuliahan Anda</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Perkuliahan Nav -->
+
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="icons-bootstrap.html">
+              <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="icons-remix.html">
+              <i class="bi bi-circle"></i><span>Remix Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="icons-boxicons.html">
+              <i class="bi bi-circle"></i><span>Boxicons</span>
+            </a>
+          </li>
+        </ul>
+      </li>End Icons Nav -->
+
+      <li class="nav-heading">Tentang</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>Kalender Akademik</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Skripsi</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-register.html">
+          <i class="bi bi-card-list"></i>
+          <span>KKNM</span>
+        </a>
+      </li><!-- End Register Page Nav -->
+<!-- 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-login.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Login</span>
+        </a>
+      </li>End Login Page Nav -->
+
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-error-404.html">
+          <i class="bi bi-dash-circle"></i>
+          <span>Error 404</span>
+        </a>
+      </li>End Error 404 Page Nav -->
+
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-blank.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Blank</span>
+        </a>
+      </li>End Blank Page Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Kartu Rencana Studi</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Rencana Studi</li>
+          <li class="breadcrumb-item active">Kartu Rencana Studi</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <label class="col-sm-8 col-form-label">Tahun Periode Akademik - Semester : </label>
+                <div class="col-sm-10">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Pilih</option>
+                    <option value="1">2022/2023 - Ganjil</option>
+                    <option value="2">2022/2023 - Genap</option>
+                    <option value="3">2023/2024 - Ganjil</option>
+                    <option value="4">2023/2024 - Genap</option>
+                  </select>
+               
+              </div> </h5>
+              <!-- 2023/2024 - Ganjil</h5> -->
+
+              <!-- Default Tabs -->
+              <ul class="nav nav-tabs d-flex" id="myTabjustified" role="tablist">
+                <li class="nav-item flex-fill" role="presentation">
+                  <button class="nav-link w-100 active" id="pertama-tab" data-bs-toggle="tab" data-bs-target="#pertama-justified" type="button" role="tab" aria-controls="pertama" aria-selected="true">Semester 1</button>
+                </li>
+                <li class="nav-item flex-fill" role="presentation">
+                  <button class="nav-link w-100" id="kedua-tab" data-bs-toggle="tab" data-bs-target="#kedua-justified" type="button" role="tab" aria-controls="kedua" aria-selected="false">Semester 3</button>
+                </li>
+                <li class="nav-item flex-fill" role="presentation">
+                  <button class="nav-link w-100" id="ketiga-tab" data-bs-toggle="tab" data-bs-target="#ketiga-justified" type="button" role="tab" aria-controls="ketiga" aria-selected="false">Semester 5</button>
+                </li>
+                <li class="nav-item flex-fill" role="presentation">
+                  <button class="nav-link w-100" id="keempat-tab" data-bs-toggle="tab" data-bs-target="#keempat-justified" type="button" role="tab" aria-controls="keempat" aria-selected="false">Semester 7</button>
+                </li>
+              </ul>
+              <div class="tab-content pt-2" id="myTabjustifiedContent">
+                <div class="tab-pane fade show active" id="pertama-justified" role="tabpanel" aria-labelledby="pertama-tab"><!--Tabel 1 -->
+                  <!-- <h5 class="card-title">Ganjir</h5> -->
+                  <!-- Table with hoverable rows -->
+                  <div style="overflow:auto;">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Kode Kuliah</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">SKS</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">Dosen Pengajar</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Jadwal Kuliah</th>
+                        <th scope="col">Ambil</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>155343</td>
+                        <td>Agama</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>H. Asep</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="1" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>155320</td>
+                        <td>Pancasila</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Dr H.Pandji</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="2" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>155350</td>
+                        <td>Bahasa Indonesia</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Prof Dr.Davidescu</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="3" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>155352</td>
+                        <td>Bahasa Inggris</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>Prof Dr.Davidescu</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="4" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>155352</td>
+                        <td>Pengantar Informatika</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>Yiyi Supendi</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="5" aria-label="..."></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </div>
+                <!-- End Table with hoverable rows --> 
+                </div>
+                <div class="tab-pane fade" id="kedua-justified" role="tabpanel" aria-labelledby="kedua-tab">
+                   <!-- Table with hoverable rows -->
+                   <div style="overflow:auto;">
+                   <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Kode Kuliah</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">SKS</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">Dosen Pengajar</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Jadwal Kuliah</th>
+                        <th scope="col">Ambil</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>155343</td>
+                        <td>Sistem Operasi</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Wahyu Purnama ST., MT</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="1" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>155320</td>
+                        <td>Pengantar Keamanan</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>Aisyah Nuraeni ST., MT</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="2" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>155350</td>
+                        <td>Pemograman Web</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Irwin Supriadi S.Kom MT</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="3" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>155352</td>
+                        <td>Rekayasa Perangkat Lunak</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Wahyu Purnama ST., MT</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="4" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>155352</td>
+                        <td>Basis Data</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Yiyi Supendi</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="5" aria-label="..."></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </div>
+                <!-- End Table with hoverable rows --> 
+                  </div>
+                <div class="tab-pane fade" id="ketiga-justified" role="tabpanel" aria-labelledby="ketiga-tab">
+                   <!-- Table with hoverable rows -->
+                   <div style="overflow:auto;">
+                   <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Kode Kuliah</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">SKS</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">Dosen Pengajar</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Jadwal Kuliah</th>
+                        <th scope="col">Ambil</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>155343</td>
+                        <td>Agama</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>H. Asep</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="1" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>155320</td>
+                        <td>Pancasila</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Dr H.Pandji</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="2" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>155350</td>
+                        <td>Bahasa Indonesia</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Prof Dr.Davidescu</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="3" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>155352</td>
+                        <td>Bahasa Inggris</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>Prof Dr.Davidescu</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="4" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>155352</td>
+                        <td>Pengantar Informatika</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>Yiyi Supendi</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="5" aria-label="..."></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </div>
+                <!-- End Table with hoverable rows --> 
+               </div>
+                <div class="tab-pane fade" id="keempat-justified" role="tabpanel" aria-labelledby="keempat-tab">
+                  <!-- Table with hoverable rows -->
+                  <div style="overflow:auto;">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Kode Kuliah</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">SKS</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">Dosen Pengajar</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Jadwal Kuliah</th>
+                        <th scope="col">Ambil</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>155343</td>
+                        <td>Agama</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>H. Asep</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="1" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>155320</td>
+                        <td>Pancasila</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Dr H.Pandji</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="2" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>155350</td>
+                        <td>Bahasa Indonesia</td>
+                        <td>3</td>
+                        <td>INF - A1</td>
+                        <td>Prof Dr.Davidescu</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="3" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>155352</td>
+                        <td>Bahasa Inggris</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>Prof Dr.Davidescu</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="4" aria-label="..."></th>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>155352</td>
+                        <td>Pengantar Informatika</td>
+                        <td>2</td>
+                        <td>INF - A1</td>
+                        <td>Yiyi Supendi</td>
+                        <td>Proses</td>
+                        <td><i class="bi bi-book-fill"></i></td>
+                        <th><input class="form-check-input me-1" type="checkbox" value="5" aria-label="..."></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- End Table with hoverable rows --> 
+                </div>
+              </div><!-- End Default Tabs -->
+              <div class="col-lg-12">
+                <button type="button" class="btn btn-success"><i class="bi bi-check-circle"></i></button>
+                </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
